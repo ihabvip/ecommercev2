@@ -239,5 +239,12 @@
 <script src="{{url('/')}}/design/admin/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{url('/')}}/design/admin/dist/js/demo.js"></script>
+<link rel="stylesheet" href="{{url('')}}/design/admin/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+<script src="{{url('')}}/design/admin/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="{{url('')}}/design/admin/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+@stack('js')
+@stack('css')
+
+
 </body>
 </html>
